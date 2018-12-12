@@ -4,10 +4,13 @@ The mbed OS 3 application firmware supports developers to operate wireless commu
 https://www.u-blox.com/en/product/c099-f9p-application-board
 
 # RELEASE INFO
-File:	c099mbed3_v1.0.0.bin
-MD5:	fd3168d3d613438be8e7cf1f1f29b495
-Ver:	1.0.0
-Dep:	ublox-odin-w2-drivers_v1.3.1.a, mbed OS 3
+File: c099mbed3_v1.0.0.bin
+
+MD5: fd3168d3d613438be8e7cf1f1f29b495
+
+Version: 1.0.0
+
+Dependencies: ublox-odin-w2-drivers_v1.3.1.a, mbed OS 3
 
 ## DESCRIPTION
 The application firmware supports:
