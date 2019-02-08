@@ -3,6 +3,10 @@ The mbed OS 3 application firmware supports developers to operate wireless commu
 
 https://www.u-blox.com/en/product/c099-f9p-application-board
 
+User Guide
+
+https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-Mbed-OS3-FW_UserGuide_%28UBX-18063024%29.pdf
+
 # RELEASE INFO
 File: c099mbed3_v1.1.0.bin
 
