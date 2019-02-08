@@ -6,7 +6,7 @@ https://www.u-blox.com/en/product/c099-f9p-application-board
 # RELEASE INFO
 File: c099mbed3_v1.1.0.bin
 
-MD5: 50c11cc1f3989a6964b424637ae5b264 
+MD5: 4188a877a72e846eb76745b4367c4d75 
 
 Version: 1.1.0
 
