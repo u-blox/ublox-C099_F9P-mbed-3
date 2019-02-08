@@ -4,11 +4,11 @@ The mbed OS 3 application firmware supports developers to operate wireless commu
 https://www.u-blox.com/en/product/c099-f9p-application-board
 
 # RELEASE INFO
-File: c099mbed3_v1.0.0.bin
+File: c099mbed3_v1.1.0.bin
 
-MD5: fd3168d3d613438be8e7cf1f1f29b495
+MD5: 50c11cc1f3989a6964b424637ae5b264 
 
-Version: 1.0.0
+Version: 1.1.0
 
 Dependencies: ublox-odin-w2-drivers_v1.3.1.a, mbed OS 3
 
@@ -17,7 +17,10 @@ The application firmware supports:
 
 - Bluetooth Classic connectivity 
 - Bluetooth Serial Port Profile connections
+- Wi-Fi 2.4 GHz Access Point
+- UDP server over Wi-Fi connections
 - UART and I2C connectivity
+- Non-volatile data storage for user settings
 - Remote Procedure Calls through Command Line Interface
 
 ## DISCLAIMER
