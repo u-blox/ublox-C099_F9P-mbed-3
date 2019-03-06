@@ -27,6 +27,10 @@ The application firmware supports:
 - Non-volatile data storage for user settings
 - Remote Procedure Calls through Command Line Interface
 
+## MECHANICAL FILES
+
+- 3D STEP file of Rev B: https://github.com/u-blox/3D-Step-Models-Library/blob/master/POS/C099_RevB.zip
+
 ## DISCLAIMER
 Copyright (C) u-blox AG
 
