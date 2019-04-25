@@ -8,11 +8,11 @@ User Guide
 https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-Mbed-OS3-FW_UserGuide_%28UBX-18063024%29.pdf
 
 # RELEASE INFO
-File: c099mbed3_v1.1.0.bin
+File: c099mbed3_v1.2.0.bin
 
-MD5: 4188a877a72e846eb76745b4367c4d75 
+MD5: 106f7a4a212e35604e3478222b6517ad 
 
-Version: 1.1.0
+Version: 1.2.0
 
 Dependencies: ublox-odin-w2-drivers_v1.3.1.a, mbed OS 3
 
@@ -20,12 +20,12 @@ Dependencies: ublox-odin-w2-drivers_v1.3.1.a, mbed OS 3
 The application firmware supports:
 
 - Bluetooth Classic connectivity 
-- Bluetooth Serial Port Profile connections
-- Wi-Fi 2.4 GHz Access Point
-- UDP server over Wi-Fi connections
+- Bluetooth Serial Port Profile connection
+- Wi-Fi 2.4 GHz Access Point and Station
+- UDP server and client over a Wi-Fi connection (Base and Rover operation)
 - UART and I2C connectivity
 - Non-volatile data storage for user settings
-- Remote Procedure Calls through Command Line Interface
+- Remote Procedure Calls through a Command Line Interface
 
 ## MECHANICAL FILES
 
