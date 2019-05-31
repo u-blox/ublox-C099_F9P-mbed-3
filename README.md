@@ -31,7 +31,7 @@ The application firmware supports:
 
 Please use the latest available FW to enable all reported features and to ensure board-to-board connectivity.
 
-Command line structure for smt32flash.exe to upload a FW:
+Command line structure (Windows Power Shell) for smt32flash.exe to upload a FW:
 
 .\stm32flash.exe -b 115200 -w <c099mbed3.bin> -S 0x8000000 COM<port number>
 
