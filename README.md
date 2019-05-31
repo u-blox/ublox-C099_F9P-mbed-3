@@ -27,6 +27,14 @@ The application firmware supports:
 - Non-volatile data storage for user settings
 - Remote Procedure Calls through a Command Line Interface
 
+## FW UPDATE
+
+Please use the latest available FW to enable all reported features and to ensure board-to-board connectivity.
+
+Command line structure for smt32flash.exe to upload a FW:
+
+.\stm32flash.exe -b 115200 -w <c099mbed3.bin> -S 0x8000000 COM<port number>
+
 ## MECHANICAL FILES
 
 - 3D STEP file of Rev B: https://github.com/u-blox/3D-Step-Models-Library/blob/master/POS/C099_RevB.zip
