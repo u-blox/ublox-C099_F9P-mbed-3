@@ -29,11 +29,19 @@ The application firmware supports:
 
 ## FW UPDATE
 
-Please use the latest available FW to enable all reported features and to ensure board-to-board connectivity.
+Use the latest available FW to enable all reported features and to ensure board-to-board connectivity.
 
 Command line structure (Windows Power Shell) for smt32flash.exe to upload a FW:
 
 .\stm32flash.exe -b 115200 -w <c099mbed3.bin> -S 0x8000000 COM<port number>
+
+## REVERT TO DEFAULT
+
+To restore the default ODIN-W2 settings:
+
+- press the "ODIN SWITCH0" for more than three seconds and release it
+- wait until the NVDS is cleared (approx. two seconds)
+- restart ODIN-W2
 
 ## MECHANICAL FILES
 
