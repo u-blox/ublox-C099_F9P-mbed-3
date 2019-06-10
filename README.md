@@ -1,5 +1,5 @@
 # C099-F9P mbed OS 3 Application Firmware
-The mbed OS 3 application firmware supports developers to operate wireless communication features in C099-F9P.
+The Mbed OS 3 application firmware supports developers to operate wireless communication features in C099-F9P.
 
 https://www.u-blox.com/en/product/c099-f9p-application-board
 
@@ -31,7 +31,11 @@ The application firmware supports:
 
 Use the latest available FW to enable all reported features and to ensure board-to-board connectivity.
 
-Command line structure (Windows Power Shell) for smt32flash.exe to upload a FW:
+Command line structure (Windows Power Shell) for stm32flash.exe to upload a FW:
+
+Prior to FW upload, the ODIN-W2 must be started in safe boot mode.
+
+Refer to the detailed FW upload procedure in the User Guide: https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-Mbed-OS3-FW_UserGuide_%28UBX-18063024%29.pdf
 
 .\stm32flash.exe -b 115200 -w <c099mbed3.bin> -S 0x8000000 COM<port number>
 
