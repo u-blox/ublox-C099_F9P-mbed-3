@@ -31,11 +31,11 @@ The application firmware supports:
 
 Use the latest available FW to enable all reported features and to ensure board-to-board connectivity.
 
-Command line structure (Windows Power Shell) for stm32flash.exe to upload a FW:
-
 Prior to FW upload, the ODIN-W2 must be started in safe boot mode.
 
 Refer to the detailed FW upload procedure in the User Guide: https://www.u-blox.com/sites/default/files/C099-F9P-AppBoard-Mbed-OS3-FW_UserGuide_%28UBX-18063024%29.pdf
+
+Command line structure (Windows Power Shell) for stm32flash.exe to upload a FW:
 
 .\stm32flash.exe -b 115200 -w <c099mbed3.bin> -S 0x8000000 COM<port number>
 
